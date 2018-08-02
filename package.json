@@ -36,7 +36,7 @@
   "dependencies": {
     "farce": "^0.2.1",
     "prop-types": "^15.6.0",
-    "scroll-behavior": "^0.9.3"
+    "scroll-behavior": "chungwong/scroll-behavior#safari_workaround"
   },
   "peerDependencies": {
     "found": ">=0.1.0",

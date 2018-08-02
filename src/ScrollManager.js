@@ -65,6 +65,10 @@ class ScrollManager extends React.Component {
       return;
     }
 
+    if (renderArgs.location.noScroll) {
+      return;
+    }
+
     this.scrollBehavior.updateScroll(this.prevRenderArgs, renderArgs);
     this.prevRenderArgs = renderArgs;
   }
